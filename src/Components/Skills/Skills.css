@@ -1,0 +1,176 @@
+/************ Skills Css ************/
+.skill {
+  padding: 0 0 50px 0;
+}
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 50px 50px;
+  margin-top: 40px;
+}
+.skill h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.skill p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 20px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 40%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4 !important;
+}
+.html-item {
+  margin-top: 20px !important;
+  width: 100%;
+
+  padding-bottom: 40px;
+}
+
+.html-logo {
+  pointer-events: none;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+  .item {
+    -webkit-animation: item infinite 20s linear;
+    animation: item-spin 20s infinite alternate;
+  }
+}
+
+@keyframes item-spin {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translate3d(-900px, 0, 0);
+    transform: translate3d(-800px, 0, 0);
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.skillContainer-text {
+  color: whitesmoke;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 200px;
+  margin-bottom: 60px !important;
+}
+
+.skillset-items h5 {
+  font-family: monospace, sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  font-weight: 500 !important;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.skillset-items h5 span {
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  text-align: right !important;
+  color: white;
+  font-weight: 500 !important;
+  padding-left: 600px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.skillset-slider > .MuiLinearProgress-colorPrimary {
+  background-color: rgb(88, 88, 88);
+  display: flex !important;
+  flex-direction: column !important;
+  height: 2vh;
+  border-radius: 2.5px 5px 5px 2.5px;
+  width: 80% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 2em;
+}
+.skillset-color1 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(71, 255, 99) !important ;
+}
+.skillset-color2 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(195, 192, 7) !important ;
+}
+.skillset-color3 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(71, 255, 234) !important ;
+}
+.skillset-color4 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(8, 16, 239) !important ;
+}
+.skillset-color5 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(8, 111, 228) !important ;
+}
+.skillset-color6 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(249, 71, 255) !important ;
+}
+.skillset-color7 > span > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(251, 9, 9) !important ;
+}
+
+@media only screen and (max-width: 800px) {
+  .skillset-slider > .MuiLinearProgress-colorPrimary {
+    background-color: rgb(88, 88, 88);
+    height: 2vh;
+    border-radius: 2.5px 5px 5px 2.5px;
+    width: 100% !important;
+    display: grid;
+    gap: 2em;
+  }
+  .skillContainer-text .skillset-items h5 {
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 100% !important;
+    font-weight: 400 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .skillset-items h5 span {
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 500 !important;
+    padding-top: 20px !important;
+    padding-bottom: 10px;
+  }
+  .skillContainer-text {
+    color: whitesmoke;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
