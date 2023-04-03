@@ -70,18 +70,18 @@ export const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("Contact")}
             >
-             Contact
+              Contact
             </Nav.Link>
           </Nav>
 
           <span className="navbar-text">
             <div className="navbar2-icons">
-              <a href="https://github.com/Narasimman2067" target="_blank">
+              <a href="https://github.com/Narasimman2067" target="_blank" rel="noreferrer">
                 <IconButton>
                   <GitHubIcon />
                 </IconButton>
               </a>
-              <a href="https://www.linkedin.com/in/narasimman-s" target="blank">
+              <a href="https://www.linkedin.com/in/narasimman-s" target="blank" rel="noreferrer">
                 <IconButton>
                   <LinkedInIcon />
                 </IconButton>
