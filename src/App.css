@@ -17,6 +17,7 @@ body {
   background-color: #121212 !important;
   color: #f3f2f2 !important;
   font-family: monospace !important;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
