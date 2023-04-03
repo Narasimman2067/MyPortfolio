@@ -11,7 +11,7 @@ nav.navbar {
     transition:1s ease-in-out;
   
   }
-  nav.navbar.scrolled {
+  nav.navbar.scroll {
     padding: 0px 0;
     background-color: #070707;
   }
