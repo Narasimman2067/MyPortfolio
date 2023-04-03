@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "../Projects/Projects.css";
 
-import projImg3 from "../Images/project-img3.png";
+
 import colorSharp2 from "../Images/color-sharp2.png";
 import { ProjectCard } from "./../ProjectCards/ProjectCard";
 
@@ -55,7 +55,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   );
 };
