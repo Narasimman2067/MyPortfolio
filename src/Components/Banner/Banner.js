@@ -20,7 +20,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text]);
+  }, [text,index]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -43,7 +43,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(1000);
+      setDelta(500);
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
