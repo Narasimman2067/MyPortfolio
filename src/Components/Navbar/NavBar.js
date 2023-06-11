@@ -88,7 +88,7 @@ export const NavBar = () => {
               </a>
             </div>
 
-            <a href="Narasimman.pdf" target="_blank">
+            <a href="https://docs.google.com/document/d/1eJZ6b22-oiC8DrlTWed3VzDOOFXh9STBQ7bFUKY3VGk/edit?usp=drivesdk" target="_blank">
               <button className="vvd">
                 <span>Download CV</span>
               </button>
