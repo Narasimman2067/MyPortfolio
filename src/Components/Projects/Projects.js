@@ -7,6 +7,13 @@ import { ProjectCard } from "./../ProjectCards/ProjectCard";
 
 export const Projects = () => {
   const projects = [
+{
+      title: "BookStore Crud App",
+      description: "Using Crud Operation made a Bookstore app on Mern Stack development.",
+      img:
+        "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa26cc294-2f30-4aae-974e-b0c9f0b48590_672x672.gif",
+      link: "https://mern-frontend-bookstore.vercel.app/",
+    },
     {
       title: "Gmail Clone App",
 
@@ -22,13 +29,7 @@ export const Projects = () => {
         "https://cdn.vox-cdn.com/thumbor/CQXisvpqlzIPjk4ETDokVBaQuqg=/0x0:1680x1050/1575x1050/filters:focal(840x525:841x526):no_upscale()/cdn0.vox-cdn.com/uploads/chorus_asset/file/9130449/YTLogo_old_new_animation.gif",
       link: "https://snazzy-froyo-58c8fd.netlify.app/",
     },
-    {
-      title: "BookStore Crud App",
-      description: "Using Crud Operation made a Bookstore app on Mern Stack development.",
-      img:
-        "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa26cc294-2f30-4aae-974e-b0c9f0b48590_672x672.gif",
-      link: "https://mern-frontend-bookstore.vercel.app/",
-    },
+    
    
   ];
 
